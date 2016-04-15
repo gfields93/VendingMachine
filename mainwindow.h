@@ -23,8 +23,30 @@ private slots:
 
     void on_RefundButton_clicked();
 
+    void on_AButton_clicked();
+
+    void on_BButton_clicked();
+
+    void on_CButton_clicked();
+
+    void on__1Button_clicked();
+
+    void on__2Button_clicked();
+
+    void on__3Button_clicked();
+
+    void Error();
+
+    void Refund();
+
+    void Output();
+
+    void Purchase();
+
 private:
     Ui::MainWindow *ui;
+
+    void coinStates();
 };
 
 #endif // MAINWINDOW_H
