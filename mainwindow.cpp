@@ -244,6 +244,11 @@ void MainWindow::Refund()
             QThread::sleep(1);
         }
     }
+    Data::setPrevState(Data::getCurrentState());
+    Data::setCurrentState(Data::state1);
+    ui->OptionLabel->setText("");
+    ui->lcdNumber->display(QString::number(Data::getValue(),'f',2));
+    ui->StateLabel->setText("State 1");
 }
 
 void MainWindow::coinStates(){
