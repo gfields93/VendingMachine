@@ -590,7 +590,7 @@ main.o: ../VendingMachine/main.cpp ../VendingMachine/mainwindow.h \
 mainwindow.o: ../VendingMachine/mainwindow.cpp ../VendingMachine/mainwindow.h \
 		../../5.6/clang_64/lib/QtWidgets.framework/Headers/QMainWindow \
 		../../5.6/clang_64/lib/QtWidgets.framework/Headers/qmainwindow.h \
-		ui_mainwindow.h \
+		../VendingMachine/ui_mainwindow.h \
 		../VendingMachine/data.h \
 		../../5.6/clang_64/lib/QtCore.framework/Headers/QString \
 		../../5.6/clang_64/lib/QtCore.framework/Headers/qstring.h \
